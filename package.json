@@ -1,0 +1,30 @@
+{
+  "name": "web_service_1",
+  "version": "1.0.0",
+  "description": "Standard web service project",
+  "engines": {
+    "node": "v8.11.1",
+    "npm": "6.1.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Patricia Lisboa",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "connect-db2": "^0.6.0",
+    "express": "^4.16.3",
+    "express-load": "^1.1.16",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.2.7",
+    "app-root-path": "^2.1.0",
+    "body-parser": "^1.18.3",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0"
+  }
+}
